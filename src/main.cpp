@@ -33,7 +33,7 @@ CCriticalSection cs_main;
 
 CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
-bool nDoGenesis = true;
+bool nDoGenesis = false;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
@@ -2534,7 +2534,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1511164161;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 0;
+        block.nNonce   = 59574482;
         if(fTestNet)
         {
             block.nNonce   = 0;
@@ -2565,7 +2565,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
         fflush(NULL);
 
-        assert(block.hashMerkleRoot == uint256("0xea8acfa37ea825d4836a40f4c5f45109c593e2f57f1ac1abebe6306be3f0d4f7"));
+        assert(block.hashMerkleRoot == uint256("0xc8b81993977fe070c151754bf0a00ecb7e922a249f6a10232a7ae909b7aea5d8"));
 
 
         block.print();
