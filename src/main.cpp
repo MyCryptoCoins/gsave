@@ -991,7 +991,7 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 
     if(height == 1)	//  Premine block 1
     {
-        nSubsidy = 7000000 * COIN;
+        nSubsidy = 16000000 * COIN;
     }
 
     if (fDebug && GetBoolArg("-printcreation"))
