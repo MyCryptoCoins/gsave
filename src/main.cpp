@@ -33,6 +33,7 @@ CCriticalSection cs_main;
 
 CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
+bool nDoGenesis = true;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
@@ -47,7 +48,7 @@ unsigned int nTargetSpacing = 2 * 30;
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 static const int64_t nDiffChangeTarget = 1;
 
-unsigned int nStakeMinAge = 12 * 60 * 60;
+unsigned int nStakeMinAge = 3 * 24 * 60 * 60;
 unsigned int nStakeMaxAge = -1;
 unsigned int nModifierInterval = 10 * 60;
 
@@ -985,16 +986,12 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-    int64_t nSubsidy = 1500 * COIN;
+    int64_t nSubsidy = 15 * COIN;
     int64_t height = pindexBest->nHeight + 1;
 
     if(height == 1)	//  Premine block 1
     {
-        nSubsidy = 6600000000 * COIN;
-    }
-    else if(height > 1 && height <= 12500)
-    {
-        nSubsidy = 3627 * COIN;
+        nSubsidy = 7000000 * COIN;
     }
 
     if (fDebug && GetBoolArg("-printcreation"))
@@ -1006,17 +1003,8 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 // miner's coin stake reward based on coin age spent (coin-days)
 int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 {
-    int64_t nSubsidy = 0 * COIN;
-    int64_t height = pindexBest->nHeight + 1;
-
-    if(height >= 200 && height <= 250000)
-    {
-        nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
-    }
-    else if(height > 250000)
-    {
-        nSubsidy = nCoinAge * COIN_YEAR_REWARD / 10 * 33 / (365 * 33 + 8);
-    }
+    //int64_t height = pindexBest->nHeight + 1;
+    int64_t nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfStakeReward(): create=%s nCoinAge=%" PRId64 "\n", FormatMoney(nSubsidy).c_str(), nCoinAge);
@@ -1095,7 +1083,6 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
     // ppcoin: retarget with exponential moving toward target spacing
     CBigNum bnNew;
     bnNew.SetCompact(pindexPrev->nBits);
-    int64_t nInterval = nTargetTimespan / nTargetSpacing;
     bnNew *= ((nInterval - 1) * nTargetSpacing + nActualSpacing + nActualSpacing);
     bnNew /= ((nInterval + 1) * nTargetSpacing);
 
@@ -2137,7 +2124,7 @@ bool CBlock::AcceptBlock()
     if (IsProofOfWork() && nHeight > LAST_POW_BLOCK)
         return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
 
-    if (IsProofOfStake() && nHeight < MODIFIER_INTERVAL_SWITCH)
+    if (IsProofOfStake() && nHeight < FIRST_POW_BLOCK)
         return DoS(100, error("AcceptBlock() : reject proof-of-stake at height %d", nHeight));
 
     // Check proof-of-work or proof-of-stake
@@ -2535,7 +2522,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         const char* pszTimestamp = "GSave is here";
         CTransaction txNew;
-        txNew.nTime = 1506514131;
+        txNew.nTime = 1511164161;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2545,16 +2532,16 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1506514131;
+        block.nTime    = 1511164161;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 15377054;
+        block.nNonce   = 0;
         if(fTestNet)
         {
             block.nNonce   = 0;
         }
 
 
-       if (false && (block.GetHash() != hashGenesisBlock)) {
+       if (nDoGenesis && (block.GetHash() != hashGenesisBlock)) {
                 block.nNonce = 0;
 
                 // This will figure out a valid hash and Nonce if you're
@@ -2576,6 +2563,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
         printf("block.nTime = %u \n", block.nTime);
         printf("block.nNonce = %u \n", block.nNonce);
+        fflush(NULL);
 
         assert(block.hashMerkleRoot == uint256("0xea8acfa37ea825d4836a40f4c5f45109c593e2f57f1ac1abebe6306be3f0d4f7"));
 
