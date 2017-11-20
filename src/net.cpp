@@ -26,6 +26,7 @@ using namespace std;
 using namespace boost;
 
 static const int MAX_OUTBOUND_CONNECTIONS = 16;
+bool nDisableStaking = true;
 
 void ThreadMessageHandler2(void* parg);
 void ThreadSocketHandler2(void* parg);
@@ -1964,7 +1965,7 @@ void StartNode(void* parg)
         printf("Error; NewThread(ThreadDumpAddress) failed\n");
 
     // Mine proof-of-stake blocks in the background
-    if (!GetBoolArg("-staking", true))
+    if (!GetBoolArg("-staking", true) || nDisableStaking)
         printf("Staking disabled\n");
     else
         if (!NewThread(ThreadStakeMiner, pwalletMain))
