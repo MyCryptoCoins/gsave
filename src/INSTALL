@@ -1,0 +1,9 @@
+Building BuzzCash
+
+See doc/readme-qt.rst for instructions on building BuzzCash QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BuzzCash.
+
+See doc/build-*.txt for instructions on building GainCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of BuzzCash.

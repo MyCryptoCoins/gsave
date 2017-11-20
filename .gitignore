@@ -1,0 +1,17 @@
+moc_*.cpp
+*.o
+*.d
+*.a
+*.swp
+*.bak
+*~
+*.o
+*.qm
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+GainCoin-qt_plugin_import.cpp
+object_script.GainCoin-qt.Debug
+object_script.GainCoin-qt.Release
+release/
