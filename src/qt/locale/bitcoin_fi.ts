@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BuzzCash</source>
-        <translation>Tietoa BBuzzCashista</translation>
+        <source>About GSave</source>
+        <translation>Tietoa BGSaveista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BuzzCash&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BuzzCash&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;GSave&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GSave&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BuzzCash developers
-Copyright © 2014 The BuzzCash developers</source>
+Copyright © 2012-2014 The GSave developers
+Copyright © 2014 The GSave developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -64,8 +64,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BuzzCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat BuzzCash-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your GSave addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat GSave-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,8 +79,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BuzzCash address</source>
-        <translation>Allekirjoita viesti osoittaaksesi BuzzCash-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a GSave address</source>
+        <translation>Allekirjoita viesti osoittaaksesi GSave-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BuzzCash address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen BuzzCash-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified GSave address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen GSave-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -262,8 +262,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>BuzzCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BuzzCash-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>GSave will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GSave-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BuzzCash</source>
-        <translation>Näytä tietoja BuzzCashista</translation>
+        <source>Show information about GSave</source>
+        <translation>Näytä tietoja GSaveista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,13 +426,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BuzzCash address</source>
-        <translation>Lähetä kolikkoja BuzzCash osoitteeseen</translation>
+        <source>Send coins to a GSave address</source>
+        <translation>Lähetä kolikkoja GSave osoitteeseen</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BuzzCash</source>
-        <translation>Mukauta BuzzCashin konfigurointiasetuksia</translation>
+        <source>Modify configuration options for GSave</source>
+        <translation>Mukauta GSavein konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -471,8 +471,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -481,8 +481,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BuzzCash</source>
-        <translation>&amp;Tietoa BuzzCashista</translation>
+        <source>&amp;About GSave</source>
+        <translation>&amp;Tietoa GSaveista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -538,13 +538,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BuzzCash client</source>
-        <translation>BuzzCash-asiakas</translation>
+        <source>GSave client</source>
+        <translation>GSave-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BuzzCash network</source>
-        <translation><numerusform>%n aktiivinen yhteys BuzzCash-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä BuzzCash-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to GSave network</source>
+        <translation><numerusform>%n aktiivinen yhteys GSave-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä GSave-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BuzzCash address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä BuzzCash-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GSave address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä GSave-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BuzzCash can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. BuzzCash-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. GSave can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. GSave-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1051,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BuzzCash address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty BuzzCash-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GSave address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty GSave-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BuzzCash-Qt</source>
-        <translation>BuzzCash-Qt</translation>
+        <source>GSave-Qt</source>
+        <translation>GSave-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BuzzCash after logging in to the system.</source>
-        <translation>Käynnistä BuzzCash-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start GSave after logging in to the system.</source>
+        <translation>Käynnistä GSave-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BuzzCash on system login</source>
-        <translation>%Käynnistä BuzzCash-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start GSave on system login</source>
+        <translation>%Käynnistä GSave-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BuzzCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa BuzzCash-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the GSave client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa GSave-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BuzzCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä BuzzCash-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the GSave network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä GSave-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BuzzCash.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta BuzzCash-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GSave.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta GSave-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BuzzCash addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota BuzzCash-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show GSave addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota GSave-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BuzzCash.</source>
-        <translation>Tämä asetus tulee voimaan vasta BuzzCash-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting GSave.</source>
+        <translation>Tämä asetus tulee voimaan vasta GSave-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BuzzCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti BuzzCash-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GSave network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti GSave-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BuzzCash-Qt help message to get a list with possible BuzzCash command-line options.</source>
-        <translation>Näytä BuzzCash-Qt:n avustusohje saadaksesi listan käytettävistä BuzzCashin komentokehotteen määritteistä.</translation>
+        <source>Show the GSave-Qt help message to get a list with possible GSave command-line options.</source>
+        <translation>Näytä GSave-Qt:n avustusohje saadaksesi listan käytettävistä GSavein komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BuzzCash - Debug window</source>
-        <translation>BuzzCash - Debug-ikkuna</translation>
+        <source>GSave - Debug window</source>
+        <translation>GSave - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BuzzCash Core</source>
-        <translation>BuzzCashin ydin</translation>
+        <source>GSave Core</source>
+        <translation>GSavein ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BuzzCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa BuzzCash-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the GSave debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa GSave-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BuzzCash RPC console.</source>
-        <translation>Tervetuloa BuzzCashin RPC-konsoliin.</translation>
+        <source>Welcome to the GSave RPC console.</source>
+        <translation>Tervetuloa GSavein RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1669,8 +1669,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 GAIN {0.00 ?}</translation>
+        <source>0.00 GSAVE</source>
+        <translation>123.456 GSAVE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1739,8 +1739,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 GAIN</source>
-        <translation>123.456 GAIN</translation>
+        <source>123.456 GSAVE</source>
+        <translation>123.456 GSAVE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1754,8 +1754,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Syötä BuzzCash-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Syötä GSave-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BuzzCash address</source>
-        <translation>VAROITUS: Epäkelpo BuzzCash-osoite</translation>
+        <source>WARNING: Invalid GSave address</source>
+        <translation>VAROITUS: Epäkelpo GSave-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Syötä BuzzCash-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Syötä GSave-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BuzzCash address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän BuzzCash-osoitteen</translation>
+        <source>Sign the message to prove you own this GSave address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän GSave-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BuzzCash address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä BuzzCash-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified GSave address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä GSave-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Syötä BuzzCash-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Syötä GSave-osoite (esim. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BuzzCash signature</source>
-        <translation>Syötä BuzzCash-allekirjoitus</translation>
+        <source>Enter GSave signature</source>
+        <translation>Syötä GSave-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BuzzCash version</source>
-        <translation>BuzzCashin versio</translation>
+        <source>GSave version</source>
+        <translation>GSavein versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2623,8 +2623,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or GainCoind</source>
-        <translation>Syötä komento kohteeseen -server tai GainCoind</translation>
+        <source>Send command to -server or GSaved</source>
+        <translation>Syötä komento kohteeseen -server tai GSaved</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,13 +2643,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: BuzzCash.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: BuzzCash.conf)</translation>
+        <source>Specify configuration file (default: GSave.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: GSave.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: GainCoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: BuzzCash.pid)</translation>
+        <source>Specify pid file (default: GSaved.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: GSave.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2798,8 +2798,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BuzzCash will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, BuzzCash ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GSave will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, GSave ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,23 +2988,23 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=BuzzCashrpc
+rpcuser=GSaverpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GSave Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=BuzzCashrpc
+rpcuser=GSaverpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;GSave Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3129,13 +3129,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BuzzCash is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. BuzzCash-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GSave is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. GSave-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3169,13 +3169,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BuzzCash</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version BuzzCash-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GSave</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version GSave-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BuzzCash to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä BuzzCash-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart GSave to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä GSave-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3244,8 +3244,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BuzzCash is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. BuzzCash-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. GSave is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. GSave-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>

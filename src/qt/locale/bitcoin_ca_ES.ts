@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BuzzCash</source>
-        <translation>Sobre BuzzCash</translation>
+        <source>About GSave</source>
+        <translation>Sobre GSave</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BuzzCash&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;BuzzCash&lt;/b&gt;</translation>
+        <source>&lt;b&gt;GSave&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;GSave&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BuzzCash developers
-Copyright © 2014 The BuzzCash developers</source>
+Copyright © 2012-2014 The GSave developers
+Copyright © 2014 The GSave developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BuzzCash developers
-Copyright © 2014 The BuzzCash developers</translation>
+Copyright © 2012-2014 The GSave developers
+Copyright © 2014 The GSave developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BuzzCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de BuzzCash per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your GSave addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de GSave per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BuzzCash address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça BuzzCash</translation>
+        <source>Sign a message to prove you own a GSave address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça GSave</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BuzzCash address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça BuzzCash especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified GSave address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça GSave especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>BuzzCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BuzzCash tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>GSave will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GSave tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -372,8 +372,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BuzzCash</source>
-        <translation>Mostra informació sobre BuzzCash</translation>
+        <source>Show information about GSave</source>
+        <translation>Mostra informació sobre GSave</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BuzzCash address</source>
-        <translation>Enviar monedes a una adreça BuzzCash</translation>
+        <source>Send coins to a GSave address</source>
+        <translation>Enviar monedes a una adreça GSave</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BuzzCash</source>
-        <translation>Modificar les opcions de configuració per a BuzzCash</translation>
+        <source>Modify configuration options for GSave</source>
+        <translation>Modificar les opcions de configuració per a GSave</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -467,8 +467,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -477,8 +477,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BuzzCash</source>
-        <translation>&amp;Sobre BuzzCash</translation>
+        <source>&amp;About GSave</source>
+        <translation>&amp;Sobre GSave</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -534,13 +534,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BuzzCash client</source>
-        <translation>Client BuzzCash</translation>
+        <source>GSave client</source>
+        <translation>Client GSave</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BuzzCash network</source>
-        <translation><numerusform>%n conexió activa a la xarxa BuzzCash</numerusform><numerusform>%n conexions actives a la xarxa BuzzCash</numerusform></translation>
+        <source>%n active connection(s) to GSave network</source>
+        <translation><numerusform>%n conexió activa a la xarxa GSave</numerusform><numerusform>%n conexions actives a la xarxa GSave</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -650,8 +650,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BuzzCash address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça BuzzCash no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GSave address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça GSave no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -710,8 +710,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BuzzCash can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. BuzzCash ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. GSave can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. GSave ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1044,8 +1044,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BuzzCash address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça BuzzCash vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GSave address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça GSave vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1063,8 +1063,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BuzzCash-Qt</source>
-        <translation>BuzzCash-Qt</translation>
+        <source>GSave-Qt</source>
+        <translation>GSave-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1136,13 +1136,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BuzzCash after logging in to the system.</source>
-        <translation>Inicia automàticament BuzzCash després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start GSave after logging in to the system.</source>
+        <translation>Inicia automàticament GSave després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BuzzCash on system login</source>
-        <translation>&amp;Iniciar BuzzCash amb l&apos;inici de sessió</translation>
+        <source>&amp;Start GSave on system login</source>
+        <translation>&amp;Iniciar GSave amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1161,8 +1161,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BuzzCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client BuzzCash en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the GSave client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client GSave en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1171,8 +1171,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BuzzCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa BuzzCash través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the GSave network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa GSave través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1246,8 +1246,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BuzzCash.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar BuzzCash.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GSave.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar GSave.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1261,8 +1261,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BuzzCash addresses in the transaction list or not.</source>
-        <translation>Per mostrar BuzzCash adreces a la llista de transaccions o no.</translation>
+        <source>Whether to show GSave addresses in the transaction list or not.</source>
+        <translation>Per mostrar GSave adreces a la llista de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1308,8 +1308,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BuzzCash.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar BuzzCash.</translation>
+        <source>This setting will take effect after restarting GSave.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar GSave.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1327,8 +1327,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BuzzCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa BuzzCash després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GSave network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa GSave després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1543,8 +1543,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BuzzCash-Qt help message to get a list with possible BuzzCash command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de BuzzCash-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres BuzzCash.</translation>
+        <source>Show the GSave-Qt help message to get a list with possible GSave command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de GSave-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres GSave.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,13 +1563,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BuzzCash - Debug window</source>
-        <translation>BuzzCash - Finestra Depuració</translation>
+        <source>GSave - Debug window</source>
+        <translation>GSave - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BuzzCash Core</source>
-        <translation>Nucli BuzzCash</translation>
+        <source>GSave Core</source>
+        <translation>Nucli GSave</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1578,8 +1578,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BuzzCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració BuzzCash des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the GSave debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració GSave des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1588,8 +1588,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BuzzCash RPC console.</source>
-        <translation>Benvingut a la consola RPC de BuzzCash.</translation>
+        <source>Welcome to the GSave RPC console.</source>
+        <translation>Benvingut a la consola RPC de GSave.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1662,8 +1662,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 GAIN {0.00 ?}</translation>
+        <source>0.00 GSAVE</source>
+        <translation>123.456 GSAVE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1732,8 +1732,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 GAIN</source>
-        <translation>123.456 GAIN</translation>
+        <source>123.456 GSAVE</source>
+        <translation>123.456 GSAVE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1747,8 +1747,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Introdueix una adreça BuzzCash (p.ex. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Introdueix una adreça GSave (p.ex. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1847,8 +1847,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BuzzCash address</source>
-        <translation>ADVERTÈNCIA: Direcció BuzzCash invàlida</translation>
+        <source>WARNING: Invalid GSave address</source>
+        <translation>ADVERTÈNCIA: Direcció GSave invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1921,8 +1921,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Introdueix una adreça BuzzCash (p.ex. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Introdueix una adreça GSave (p.ex. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
 </context>
 <context>
@@ -1982,8 +1982,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BuzzCash address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça BuzzCash</translation>
+        <source>Sign the message to prove you own this GSave address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça GSave</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2014,8 +2014,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BuzzCash address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça BuzzCash especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified GSave address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça GSave especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2025,8 +2025,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Introdueix una adreça BuzzCash (p.ex. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Introdueix una adreça GSave (p.ex. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2035,8 +2035,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BuzzCash signature</source>
-        <translation>Introduïu la signatura BuzzCash</translation>
+        <source>Enter GSave signature</source>
+        <translation>Introduïu la signatura GSave</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2606,8 +2606,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BuzzCash version</source>
-        <translation>versió BuzzCash</translation>
+        <source>GSave version</source>
+        <translation>versió GSave</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2616,8 +2616,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or GainCoind</source>
-        <translation>Enviar comandes a -server o GainCoind</translation>
+        <source>Send command to -server or GSaved</source>
+        <translation>Enviar comandes a -server o GSaved</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2636,13 +2636,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: BuzzCash.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: BuzzCash.conf)</translation>
+        <source>Specify configuration file (default: GSave.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: GSave.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: GainCoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: GainCoind.pid)</translation>
+        <source>Specify pid file (default: GSaved.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: GSaved.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2791,8 +2791,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BuzzCash will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni BuzzCash no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GSave will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni GSave no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2981,24 +2981,24 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=BuzzCashrpc
+rpcuser=GSaverpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GSave Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
 Es recomana utilitzar la següent contrasenya aleatòria:
-rpcuser=BuzzCashrpc
+rpcuser=GSaverpc
 rpcpassword=%s
 (No cal recordar aquesta contrasenya)
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot;GSave Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3124,13 +3124,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BuzzCash is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig en el directori de dades %s. BuzzCash probablement ja estigui en funcionament.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GSave is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig en el directori de dades %s. GSave probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3164,13 +3164,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BuzzCash</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de BuzzCash</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GSave</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de GSave</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BuzzCash to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar BuzzCash per completar</translation>
+        <source>Wallet needed to be rewritten: restart GSave to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar GSave per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3239,8 +3239,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BuzzCash is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. BuzzCash probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. GSave is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. GSave probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-97"/>

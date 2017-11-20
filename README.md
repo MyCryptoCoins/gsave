@@ -1,3 +1,3 @@
-BuzzCash (GAIN)
+GSave (GSAVE)
 -----------------
 Algorithm SHA256d

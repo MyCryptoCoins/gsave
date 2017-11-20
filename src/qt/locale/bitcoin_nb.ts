@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BuzzCash</source>
-        <translation>Om BuzzCash</translation>
+        <source>About GSave</source>
+        <translation>Om GSave</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BuzzCash&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BuzzCash&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;GSave&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GSave&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BuzzCash developers
-Copyright © 2014 The BuzzCash developers</source>
+Copyright © 2012-2014 The GSave developers
+Copyright © 2014 The GSave developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,7 +63,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BuzzCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your GSave addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dette er adressene for å motta betalinger. Du ønsker kanskje å gi ulike adresser til hver avsender så du lettere kan holde øye med hvem som betaler deg.</translation>
     </message>
     <message>
@@ -78,8 +78,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BuzzCash address</source>
-        <translation>Signer en melding for å bevise din egen BuzzCash adresse.</translation>
+        <source>Sign a message to prove you own a GSave address</source>
+        <translation>Signer en melding for å bevise din egen GSave adresse.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BuzzCash address</source>
-        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk BuzzCash adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified GSave address</source>
+        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk GSave adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,7 +261,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-58"/>
-        <source>BuzzCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>GSave will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -375,8 +375,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BuzzCash</source>
-        <translation>Vis info om BuzzCash</translation>
+        <source>Show information about GSave</source>
+        <translation>Vis info om GSave</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BuzzCash address</source>
-        <translation>Send coins til en BuzzCash adresse</translation>
+        <source>Send coins to a GSave address</source>
+        <translation>Send coins til en GSave adresse</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BuzzCash</source>
-        <translation>Endre innstillingene til BuzzCash</translation>
+        <source>Modify configuration options for GSave</source>
+        <translation>Endre innstillingene til GSave</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-200"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BuzzCash</source>
-        <translation>&amp;Om BuzzCash</translation>
+        <source>&amp;About GSave</source>
+        <translation>&amp;Om GSave</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BuzzCash client</source>
-        <translation>BuzzCash klient</translation>
+        <source>GSave client</source>
+        <translation>GSave klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BuzzCash network</source>
-        <translation><numerusform>%n aktiv tilkobling til BuzzCash nettverket</numerusform><numerusform>%n aktive tilkoblinger til BuzzCash nettverket</numerusform></translation>
+        <source>%n active connection(s) to GSave network</source>
+        <translation><numerusform>%n aktiv tilkobling til GSave nettverket</numerusform><numerusform>%n aktive tilkoblinger til GSave nettverket</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,7 +657,7 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BuzzCash address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid GSave address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -717,7 +717,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BuzzCash can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. GSave can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1039,8 +1039,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BuzzCash address.</source>
-        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig BuzzCash adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GSave address.</source>
+        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig GSave adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1058,8 +1058,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BuzzCash-Qt</source>
-        <translation>BuzzCash-Qt</translation>
+        <source>GSave-Qt</source>
+        <translation>GSave-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1131,13 +1131,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BuzzCash after logging in to the system.</source>
+        <source>Automatically start GSave after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BuzzCash on system login</source>
-        <translation>&amp;Start BBuzzCash ved innlogging</translation>
+        <source>&amp;Start GSave on system login</source>
+        <translation>&amp;Start BGSave ved innlogging</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1156,7 +1156,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BuzzCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the GSave client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1166,7 +1166,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BuzzCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the GSave network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1241,7 +1241,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BuzzCash.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting GSave.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1256,7 +1256,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BuzzCash addresses in the transaction list or not.</source>
+        <source>Whether to show GSave addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1303,7 +1303,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BuzzCash.</source>
+        <source>This setting will take effect after restarting GSave.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1322,7 +1322,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BuzzCash network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GSave network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1538,7 +1538,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BuzzCash-Qt help message to get a list with possible BuzzCash command-line options.</source>
+        <source>Show the GSave-Qt help message to get a list with possible GSave command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1558,12 +1558,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BuzzCash - Debug window</source>
+        <source>GSave - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>BuzzCash Core</source>
+        <source>GSave Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1573,7 +1573,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BuzzCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the GSave debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1583,7 +1583,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BuzzCash RPC console.</source>
+        <source>Welcome to the GSave RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1657,7 +1657,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
+        <source>0.00 GSAVE</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1727,7 +1727,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 GAIN</source>
+        <source>123.456 GSAVE</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1742,7 +1742,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1842,8 +1842,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BuzzCash address</source>
-        <translation>ADVARSEL: Ugyldig BuzzCash adresse</translation>
+        <source>WARNING: Invalid GSave address</source>
+        <translation>ADVARSEL: Ugyldig GSave adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1916,7 +1916,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1977,7 +1977,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BuzzCash address</source>
+        <source>Sign the message to prove you own this GSave address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2009,7 +2009,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BuzzCash address</source>
+        <source>Verify the message to ensure it was signed with the specified GSave address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2020,7 +2020,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2030,7 +2030,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BuzzCash signature</source>
+        <source>Enter GSave signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2601,8 +2601,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BuzzCash version</source>
-        <translation>BuzzCash versjon</translation>
+        <source>GSave version</source>
+        <translation>GSave versjon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2611,7 +2611,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or GainCoind</source>
+        <source>Send command to -server or GSaved</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2631,12 +2631,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: BuzzCash.conf)</source>
+        <source>Specify configuration file (default: GSave.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: GainCoind.pid)</source>
+        <source>Specify pid file (default: GSaved.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2786,7 +2786,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BuzzCash will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GSave will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2975,13 +2975,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=BuzzCashrpc
+rpcuser=GSaverpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GSave Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3107,13 +3107,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BuzzCash is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  GSave is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3147,12 +3147,12 @@ for example: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BuzzCash</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of GSave</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BuzzCash to complete</source>
+        <source>Wallet needed to be rewritten: restart GSave to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3222,7 +3222,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BuzzCash is probably already running.</source>
+        <source>Unable to bind to %s on this computer. GSave is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -1,9 +1,9 @@
-Building BuzzCash
+Building GSave
 
-See doc/readme-qt.rst for instructions on building BuzzCash QT,
+See doc/readme-qt.rst for instructions on building GSave QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BuzzCash.
+implementation of GSave.
 
-See doc/build-*.txt for instructions on building GainCoind,
+See doc/build-*.txt for instructions on building GSaved,
 the intended-for-services, no-graphical-interface, reference
-implementation of BuzzCash.
+implementation of GSave.

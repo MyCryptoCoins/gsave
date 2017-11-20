@@ -1,4 +1,4 @@
-// Copyright (c) 2017 BuzzCash Developers
+// Copyright (c) 2017 GSave Developers
 
 #ifndef PBKDF2_H
 #define PBKDF2_H

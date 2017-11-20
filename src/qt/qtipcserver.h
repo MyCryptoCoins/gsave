@@ -1,8 +1,8 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define BuzzCash-Qt message queue name
-#define BITCOINURI_QUEUE_NAME "BuzzCashURI"
+// Define GSave-Qt message queue name
+#define BITCOINURI_QUEUE_NAME "GSaveURI"
 
 void ipcScanRelay(int argc, char *argv[]);
 void ipcInit(int argc, char *argv[]);

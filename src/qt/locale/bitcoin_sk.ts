@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BuzzCash</source>
-        <translation>O BBuzzCashe</translation>
+        <source>About GSave</source>
+        <translation>O BGSavee</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BuzzCash&lt;/b&gt; version</source>
-        <translation>verzia &lt;b&gt;BuzzCashu&lt;/b&gt;</translation>
+        <source>&lt;b&gt;GSave&lt;/b&gt; version</source>
+        <translation>verzia &lt;b&gt;GSaveu&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BuzzCash developers
-Copyright © 2014 The BuzzCash developers</source>
+Copyright © 2012-2014 The GSave developers
+Copyright © 2014 The GSave developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BuzzCash developers
-Copyright © 2014 The BuzzCash developers</translation>
+Copyright © 2012-2014 The GSave developers
+Copyright © 2014 The GSave developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BuzzCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše BuzzCash adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your GSave addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše GSave adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BuzzCash address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto BuzzCash adresu</translation>
+        <source>Sign a message to prove you own a GSave address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto GSave adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BuzzCash address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou BuzzCash adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified GSave address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou GSave adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>BuzzCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BuzzCash sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>GSave will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GSave sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BuzzCash</source>
-        <translation>Zobraziť informácie o BuzzCash</translation>
+        <source>Show information about GSave</source>
+        <translation>Zobraziť informácie o GSave</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a BuzzCash address</source>
-        <translation>Poslať mince na BuzzCash adresu</translation>
+        <source>Send coins to a GSave address</source>
+        <translation>Poslať mince na GSave adresu</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for BuzzCash</source>
-        <translation>Upraviť možnosti konfigurácie pre BuzzCash</translation>
+        <source>Modify configuration options for GSave</source>
+        <translation>Upraviť možnosti konfigurácie pre GSave</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-200"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About BuzzCash</source>
-        <translation>&amp;O BuzzCash</translation>
+        <source>&amp;About GSave</source>
+        <translation>&amp;O GSave</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BuzzCash client</source>
-        <translation>BuzzCash klient</translation>
+        <source>GSave client</source>
+        <translation>GSave klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BuzzCash network</source>
-        <translation><numerusform>%n aktívne spojenie s BuzzCash sieťov</numerusform><numerusform>%n aktívnych spojení s BuzzCash sieťov</numerusform><numerusform>%n aktívnych spojení s BuzzCash sieťou</numerusform></translation>
+        <source>%n active connection(s) to GSave network</source>
+        <translation><numerusform>%n aktívne spojenie s GSave sieťov</numerusform><numerusform>%n aktívnych spojení s GSave sieťov</numerusform><numerusform>%n aktívnych spojení s GSave sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -658,8 +658,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BuzzCash address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou BuzzCash adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GSave address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou GSave adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -718,8 +718,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BuzzCash can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. BuzzCash už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. GSave can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. GSave už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1052,8 +1052,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BuzzCash address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou BuzzCash adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GSave address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou GSave adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1071,8 +1071,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BuzzCash-Qt</source>
-        <translation>BuzzCash-Qt</translation>
+        <source>GSave-Qt</source>
+        <translation>GSave-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1144,13 +1144,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BuzzCash after logging in to the system.</source>
-        <translation>Automaticky spustiť BuzzCash po prihlásení sa do systému.</translation>
+        <source>Automatically start GSave after logging in to the system.</source>
+        <translation>Automaticky spustiť GSave po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BuzzCash on system login</source>
-        <translation>&amp;Spustiť BuzzCash pri prihlásení do systému</translation>
+        <source>&amp;Start GSave on system login</source>
+        <translation>&amp;Spustiť GSave pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1169,8 +1169,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BuzzCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta BuzzCash na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the GSave client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta GSave na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BuzzCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti BuzzCash cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the GSave network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti GSave cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BuzzCash.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní BuzzCash.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GSave.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní GSave.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1269,8 +1269,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BuzzCash addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť BuzzCash adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show GSave addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť GSave adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1316,8 +1316,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BuzzCash.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní BuzzCash.</translation>
+        <source>This setting will take effect after restarting GSave.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní GSave.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BuzzCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou BuzzCash po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GSave network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou GSave po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1551,8 +1551,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BuzzCash-Qt help message to get a list with possible BuzzCash command-line options.</source>
-        <translation>Zobraziť BuzzCash-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku BuzzCash.</translation>
+        <source>Show the GSave-Qt help message to get a list with possible GSave command-line options.</source>
+        <translation>Zobraziť GSave-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku GSave.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1571,13 +1571,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BuzzCash - Debug window</source>
-        <translation>BuzzCash - Ladiace okno</translation>
+        <source>GSave - Debug window</source>
+        <translation>GSave - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BuzzCash Core</source>
-        <translation>Jadro BuzzCash</translation>
+        <source>GSave Core</source>
+        <translation>Jadro GSave</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1586,8 +1586,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BuzzCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte BBuzzCash súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the GSave debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte BGSave súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1596,8 +1596,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BuzzCash RPC console.</source>
-        <translation>Vitajte v konzole BBuzzCash RPC.</translation>
+        <source>Welcome to the GSave RPC console.</source>
+        <translation>Vitajte v konzole BGSave RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1670,8 +1670,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 GAIN {0.00 ?}</translation>
+        <source>0.00 GSAVE</source>
+        <translation>123.456 GSAVE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1740,8 +1740,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 GAIN</source>
-        <translation>123.456 GAIN</translation>
+        <source>123.456 GSAVE</source>
+        <translation>123.456 GSAVE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1755,8 +1755,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Zadajte BuzzCash adresu (napr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Zadajte GSave adresu (napr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1855,8 +1855,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BuzzCash address</source>
-        <translation>UPOZORNENIE: Neplatná BuzzCash adresa</translation>
+        <source>WARNING: Invalid GSave address</source>
+        <translation>UPOZORNENIE: Neplatná GSave adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1929,8 +1929,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Zadajte BuzzCash adresu (napr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Zadajte GSave adresu (napr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
 </context>
 <context>
@@ -1990,8 +1990,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BuzzCash address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto BuzzCash adresu</translation>
+        <source>Sign the message to prove you own this GSave address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto GSave adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2022,8 +2022,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BuzzCash address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou BuzzCash adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified GSave address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou GSave adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BuzzCash address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
-        <translation>Zadajte BuzzCash adresu (napr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
+        <source>Enter a GSave address (e.g. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</source>
+        <translation>Zadajte GSave adresu (napr. TAKEqYkreSgfkAFLUcxbQciS9vXJfrRDep)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2043,8 +2043,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BuzzCash signature</source>
-        <translation>Zadajte BuzzCash podpis</translation>
+        <source>Enter GSave signature</source>
+        <translation>Zadajte GSave podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2614,8 +2614,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BuzzCash version</source>
-        <translation>BuzzCash verzia</translation>
+        <source>GSave version</source>
+        <translation>GSave verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2624,8 +2624,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or GainCoind</source>
-        <translation>Pošli príkaz na -server alebo GainCoind</translation>
+        <source>Send command to -server or GSaved</source>
+        <translation>Pošli príkaz na -server alebo GSaved</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2644,13 +2644,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: BuzzCash.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: BuzzCash.conf)</translation>
+        <source>Specify configuration file (default: GSave.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: GSave.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: GainCoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: GainCoind.pid)</translation>
+        <source>Specify pid file (default: GSaved.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: GSaved.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2799,8 +2799,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BuzzCash will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny BuzzCash nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GSave will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny GSave nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2989,24 +2989,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=BuzzCashrpc
+rpcuser=GSaverpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GSave Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=BuzzCashrpc
+rpcuser=GSaverpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;GSave Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3130,13 +3130,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BuzzCash is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. BuzzCash už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  GSave is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. GSave už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BuzzCash</source>
-        <translation>BuzzCash</translation>
+        <source>GSave</source>
+        <translation>GSave</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BuzzCash</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu BuzzCash</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GSave</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu GSave</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BuzzCash to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte BuzzCash k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart GSave to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte GSave k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BuzzCash Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BuzzCash is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. BuzzCash je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. GSave is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. GSave je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

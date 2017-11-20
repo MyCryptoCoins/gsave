@@ -485,10 +485,10 @@ EOF
     Motorola:*:4.3:PL8-*)
 	echo powerpc-harris-powermax
 	exit ;;
-    Night_BuzzCash:*:*:PowerMAX_OS | Synergy:PowerMAX_OS:*:*)
+    Night_GSave:*:*:PowerMAX_OS | Synergy:PowerMAX_OS:*:*)
 	echo powerpc-harris-powermax
 	exit ;;
-    Night_BuzzCash:Power_UNIX:*:*)
+    Night_GSave:Power_UNIX:*:*)
 	echo powerpc-harris-powerunix
 	exit ;;
     m88k:CX/UX:7*:*)

@@ -21,7 +21,7 @@ CCriticalSection cs_mapAlerts;
 
 static const char* pszMainKey = "042fac10443cf03d2d5c84d9daa3c0116b1ddd5f0e71df2a53e463435ea73c05547761d2a1ed3150fa9ff3d9afab73cf8e5d94c01a6ebf00dcc8ac23d63bde6d51";
 
-// TestNet alerts pubKey GainCoin
+// TestNet alerts pubKey GSave
 static const char* pszTestKey = "045be973a273582c267f8310816bc213c5bbfdf23a60f537c19e5ae4f1a8b34dc8e53e86cc798ee05ba5f7613569ce223785e0e1a5681f059b176c25aa99171b96";
 
 void CUnsignedAlert::SetNull()

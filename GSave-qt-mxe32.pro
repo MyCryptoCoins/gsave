@@ -1,7 +1,7 @@
-# For building 64-bit windows builds from Linux using MXE
+# For building 32-bit windows builds from Linux using MXE
 
 TEMPLATE = app
-TARGET = GainCoin-qt
+TARGET = GSave-qt
 VERSION = 1.0.0.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network printsupport
@@ -54,7 +54,7 @@ QMAKE_LFLAGS *= -fstack-protector-all --param ssp-buffer-size=1
 # for extra security on Windows: enable ASLR and DEP via GCC linker flags
 win32:QMAKE_LFLAGS *= -Wl,--dynamicbase -Wl,--nxcompat
 # on win32: enable GCC large address aware linker flag
-win32:QMAKE_LFLAGS *= -static
+win32:QMAKE_LFLAGS *= -Wl,--large-address-aware -static
 win32:QMAKE_LFLAGS += -static-libgcc -static-libstdc++
 lessThan(QT_MAJOR_VERSION, 5): win32: QMAKE_LFLAGS *= -static
 
@@ -396,16 +396,16 @@ isEmpty(BOOST_INCLUDE_PATH) {
 }
 
 MXE_PATH=/opt/mxe
-BOOST_INCLUDE_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/include
-BOOST_LIB_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/lib
-BDB_INCLUDE_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/include
-BDB_LIB_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/lib
-OPENSSL_INCLUDE_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/include
-OPENSSL_LIB_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/lib
-MINIUPNPC_INCLUDE_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/include
-MINIUPNPC_LIB_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/lib
-QRENCODE_INCLUDE_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/include
-QRENCODE_LIB_PATH=${MXE_PATH}/usr/x86_64-w64-mingw32.static/lib
+BOOST_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+BOOST_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+BDB_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+BDB_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+OPENSSL_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+OPENSSL_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+MINIUPNPC_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+MINIUPNPC_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
+QRENCODE_INCLUDE_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/include
+QRENCODE_LIB_PATH=${MXE_PATH}/usr/i686-w64-mingw32.static/lib
 
 windows:DEFINES += WIN32
 windows:RC_FILE = src/qt/res/bitcoin-qt.rc
@@ -426,7 +426,7 @@ macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
 macx:ICON = src/qt/res/icons/bitcoin.icns
-macx:TARGET = "GainCoin-Qt"
+macx:TARGET = "GSave-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

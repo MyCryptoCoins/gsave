@@ -11,7 +11,7 @@ moc_*.cpp
 Makefile
 Makefile.Debug
 Makefile.Release
-GainCoin-qt_plugin_import.cpp
-object_script.GainCoin-qt.Debug
-object_script.GainCoin-qt.Release
+GSave-qt_plugin_import.cpp
+object_script.GSave-qt.Debug
+object_script.GSave-qt.Release
 release/

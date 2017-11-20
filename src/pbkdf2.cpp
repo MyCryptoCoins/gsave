@@ -1,4 +1,4 @@
-// Copyright (c) 2017 GainCoin Developers
+// Copyright (c) 2017 GSave Developers
 
 #include <string.h>
 #include "pbkdf2.h"

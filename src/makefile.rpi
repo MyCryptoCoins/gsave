@@ -2,7 +2,7 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-all: GainCoind
+all: GSaved
 
 BOOST_LIB_PATH := /opt/x-tools/pi-boost/lib
 BOOST_INCLUDE_PATH := /opt/x-tools/pi-boost/include
@@ -162,7 +162,7 @@ OBJS= \
     obj/zerocoin/SpendMetaData.o \
     obj/zerocoin/ZeroTest.o
 
-GainCoind:: leveldb/libleveldb.a obj obj/zerocoin
+GSaved:: leveldb/libleveldb.a obj obj/zerocoin
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -206,11 +206,11 @@ obj/zerocoin/%.o: zerocoin/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-GainCoind:: $(OBJS:obj/%=obj/%)
+GSaved:: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f GainCoind
+	-rm -f GSaved
 	-rm -f obj/*.o
 	-rm -f obj/zerocoin/*.o
 	-rm -f obj/*.P
