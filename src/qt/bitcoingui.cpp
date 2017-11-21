@@ -59,7 +59,6 @@
 #include <QFontDatabase>
 #include <QUrl>
 #include <QStyle>
-
 #include <iostream>
 
 extern CWallet* pwalletMain;
@@ -349,7 +348,7 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
     toolbar->addAction(blockAction);
-	toolbar->setStyleSheet("#toolbar { border:1px;height:100%;padding-top:100px; background: transparent; text-align: center; color: black;min-width:200px;max-width:200px;} QToolBar QToolButton:hover {background-image: url(:images/toolbtnh); background-color: transparent;} QToolBar QToolButton:selected {background-color: transparent;} QToolBar QToolButton:checked {background-image: url(:images/toolbtns); background-color: transparent;} QToolBar QToolButton:pressed {background-color: transparent;} QToolBar QToolButton { margin: 2px; background-image:url(:images/toolbtn); font-family:'Bebas'; font-size:14px; min-width:160px;max-width:160px; min-height:40px;max-height:40px; color: blue; text-align: center; }");
+    toolbar->setStyleSheet("#toolbar { border:1px;height:100%;padding-top:100px; background: transparent; text-align: center; color: black;min-width:200px;max-width:200px;} QToolBar QToolButton:hover {background-image: url(:images/toolbtnh); background-color: transparent;} QToolBar QToolButton:selected {background-color: transparent;} QToolBar QToolButton:checked {background-image: url(:images/toolbtns); background-color: transparent;} QToolBar QToolButton:pressed {background-color: transparent;} QToolBar QToolButton { margin: 2px; background-image:url(:images/toolbtn); font-family:'Bebas'; font-size:18px; min-width:160px;max-width:160px; min-height:40px;max-height:40px; color: black; text-align: center; }");
 }
 
 void BitcoinGUI::setClientModel(ClientModel *clientModel)

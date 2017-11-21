@@ -341,21 +341,14 @@
             </property>
            </widget>
           </item>
-          <item row="4" column="0" colspan="2">
-           <widget class="Line" name="line">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-           </widget>
-          </item>
-          <item row="5" column="0">
+          <item row="4" column="0">
            <widget class="QLabel" name="labelTotalText">
             <property name="text">
              <string>Total:</string>
             </property>
            </widget>
           </item>
-          <item row="5" column="1">
+          <item row="4" column="1">
            <widget class="QLabel" name="labelTotal">
             <property name="font">
              <font>
@@ -411,9 +404,6 @@
        </property>
        <property name="text">
         <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap resource="../bitcoin.qrc">:/images/wallet</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -525,8 +515,6 @@
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../bitcoin.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

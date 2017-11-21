@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>593</width>
+    <width>823</width>
     <height>319</height>
    </rect>
   </property>
@@ -22,8 +22,8 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
-     <property name="pixmap">
-      <pixmap resource="../bitcoin.qrc">:/images/about</pixmap>
+     <property name="scaledContents">
+      <bool>false</bool>
      </property>
     </widget>
    </item>
@@ -150,9 +150,7 @@ This product includes software developed by the OpenSSL Project for use in the O
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../bitcoin.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>
