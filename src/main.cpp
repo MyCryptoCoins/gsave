@@ -646,8 +646,14 @@ bool CTxMemPool::accept(CTxDB& txdb, CTransaction &tx, bool fCheckInputs,
         // you should add code here to check that the transaction does a
         // reasonable number of ECDSA signature verifications.
 
-        int64_t nFees = tx.GetValueIn(mapInputs)-tx.GetValueOut();
+        int64_t nFees = tx.GetValueIn(mapInputs) - tx.GetValueOut();
+	int64_t nBurned = tx.GetBurnedValue();
         unsigned int nSize = ::GetSerializeSize(tx, SER_NETWORK, PROTOCOL_VERSION);
+
+	if (nBurned) {
+	    printf("CTxMemPool::accept() : Detected burned coins : %" PRId64 "\n", nBurned);
+	    nFees -= nBurned;
+	}
 
         // Don't accept it if it can't get into a block
         int64_t txMinFee = tx.GetMinFee(1000, GMF_RELAY, nSize);
@@ -1403,7 +1409,7 @@ bool CTransaction::ConnectInputs(CTxDB& txdb, MapPrevTx inputs, map<uint256, CTx
                 return DoS(100, error("ConnectInputs() : %s value in < value out", GetHash().ToString().substr(0,10).c_str()));
 
             // Tally transaction fees
-            int64_t nTxFee = nValueIn - GetValueOut();
+            int64_t nTxFee = nValueIn - (GetValueOut() + GetBurnedValue());
             if (nTxFee < 0)
                 return DoS(100, error("ConnectInputs() : %s nTxFee < 0", GetHash().ToString().substr(0,10).c_str()));
 
@@ -1564,12 +1570,13 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
 
             int64_t nTxValueIn = tx.GetValueIn(mapInputs);
             int64_t nTxValueOut = tx.GetValueOut();
+	    int64_t nBurnValue = tx.GetBurnedValue();
             nValueIn += nTxValueIn;
             nValueOut += nTxValueOut;
             if (!tx.IsCoinStake())
-                nFees += nTxValueIn - nTxValueOut;
+                nFees += nTxValueIn - (nTxValueOut + nBurnValue);
             if (tx.IsCoinStake())
-                nStakeReward = nTxValueOut - nTxValueIn;
+                nStakeReward = (nTxValueOut + nBurnValue) - nTxValueIn;
 
             if (!tx.ConnectInputs(txdb, mapInputs, mapQueuedChanges, posThisTx, pindex, true, false))
                 return false;

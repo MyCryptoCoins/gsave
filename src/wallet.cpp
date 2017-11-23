@@ -673,7 +673,7 @@ void CWalletTx::GetAmounts(list<pair<CTxDestination, int64_t> >& listReceived,
     if (nDebit > 0) // debit>0 means we signed/sent this transaction
     {
         int64_t nValueOut = GetValueOut();
-        nFee = nDebit - nValueOut;
+        nFee = nDebit - (nValueOut + GetBurnedValue());
     }
 
     // Sent/received.
