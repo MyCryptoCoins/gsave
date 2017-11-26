@@ -674,6 +674,8 @@ void CWalletTx::GetAmounts(list<pair<CTxDestination, int64_t> >& listReceived,
     {
         int64_t nValueOut = GetValueOut();
         nFee = nDebit - (nValueOut + GetBurnedValue());
+        printf("OutValue: %" PRId64 ", fee: %" PRId64 ", burned: %" PRId64 "\n",
+               nValueOut, nFee, GetBurnedValue());
     }
 
     // Sent/received.
