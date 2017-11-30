@@ -48,7 +48,7 @@ unsigned int nTargetSpacing = 2 * 30;
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 static const int64_t nDiffChangeTarget = 1;
 
-static const int64_t nStartTargetV2 = 3920;
+static const int64_t nStartTargetV2 = 3950;
 static const int64_t nMaxAdjustUp = 25;
 static const int64_t nMaxAdjustDown = 50;
 static const int64_t nAdjustAmplitude = 25;
@@ -1117,6 +1117,14 @@ unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool fProofO
 
     if (bnNew <= 0 || bnNew > bnTargetLimit)
         bnNew = bnTargetLimit;
+    //
+    // debug print
+    if (1 || (fDebug && GetBoolArg("-printdigishield"))) {
+        printf("GetNextWorkRequiredV1 RETARGET\n");
+        printf("nTargetTimespan = %" PRId64 " nActualTimespan = %" PRId64 "\n", retargetTimespan, nActualTimespan);
+        printf("Before: %08x %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
+        printf("After: %08x %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
+    }
 
     return bnNew.GetCompact();
 }
@@ -1166,11 +1174,11 @@ unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool fProofO
 
     // debug print
     if (1 || (fDebug && GetBoolArg("-printdigishield"))) {
-        printf("GetNextWorkRequired RETARGET\n");
+        printf("GetNextWorkRequiredV2 RETARGET\n");
         printf("nTargetTimespan = %" PRId64 " nActualTimespan = %" PRId64 "\n", retargetTimespan, nActualTimespan);
         printf("Before: %08x %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
         printf("After: %08x %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
-    };
+    }
 
     return bnNew.GetCompact();
 }
