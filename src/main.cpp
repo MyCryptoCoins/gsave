@@ -1074,6 +1074,8 @@ unsigned int ComputeMinWork(unsigned int nBase, int64_t nTime)
 
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
+    CBigNum bnTargetLimit = fProofOfStake ? bnProofOfStakeLimit : bnProofOfWorkLimit;
+
     if (pindexLast == NULL)
         return bnTargetLimit.GetCompact(); // genesis block
 
