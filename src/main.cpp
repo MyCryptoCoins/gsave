@@ -48,7 +48,7 @@ unsigned int nTargetSpacing = 2 * 30;
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 static const int64_t nDiffChangeTarget = 1;
 
-static const int64_t nStartTargetV2 = 3950;
+static const int64_t nStartTargetV2 = 3970;
 static const int64_t nMaxAdjustUp = 25;
 static const int64_t nMaxAdjustDown = 50;
 static const int64_t nAdjustAmplitude = 25;
