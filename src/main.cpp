@@ -1123,7 +1123,7 @@ unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool fProofO
     // debug print
     if (1 || (fDebug && GetBoolArg("-printdigishield"))) {
         printf("GetNextWorkRequiredV1 RETARGET\n");
-        printf("nTargetTimespan = %" PRId64 " nActualTimespan = %" PRId64 "\n", retargetTimespan, nActualSpacing);
+        printf("nTargetTimespan = %" PRId64 " nActualSpacing = %" PRId64 "\n", nTargetTimespan, nActualSpacing);
         printf("Before: %08x %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
         printf("After: %08x %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
     }
