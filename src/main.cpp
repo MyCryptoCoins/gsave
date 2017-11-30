@@ -48,6 +48,11 @@ unsigned int nTargetSpacing = 2 * 30;
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 static const int64_t nDiffChangeTarget = 1;
 
+static const int64_t nStartTargetV2 = 3920;
+static const int64_t nMaxAdjustUp = 25;
+static const int64_t nMaxAdjustDown = 50;
+static const int64_t nAdjustAmplitude = 25;
+
 unsigned int nStakeMinAge = 3 * 24 * 60 * 60;
 unsigned int nStakeMaxAge = -1;
 unsigned int nModifierInterval = 10 * 60;
@@ -1066,9 +1071,26 @@ unsigned int ComputeMinWork(unsigned int nBase, int64_t nTime)
 {
     return ComputeMaxBits(bnProofOfWorkLimit, nBase, nTime);
 }
+
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
+    if (pindexLast == NULL)
+        return bnTargetLimit.GetCompact(); // genesis block
 
+    const CBlockIndex* pindexPrev = GetLastBlockIndex(pindexLast, fProofOfStake);
+    if (pindexPrev->pprev == NULL)
+        return bnTargetLimit.GetCompact(); // genesis block
+
+    int64_t nHeight = pindexPrev->nHeight;
+    if (nHeight < nStartTargetV2) {
+	return GetNextTargetRequiredV1(pindexLast, fProofOfStake);
+    } else {
+	return GetNextTargetRequiredV2(pindexLast, fProofOfStake);
+    }
+}
+
+unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool fProofOfStake)
+{
     CBigNum bnTargetLimit = fProofOfStake ? bnProofOfStakeLimit : bnProofOfWorkLimit;
 
     if (pindexLast == NULL)
@@ -1077,6 +1099,7 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
     const CBlockIndex* pindexPrev = GetLastBlockIndex(pindexLast, fProofOfStake);
     if (pindexPrev->pprev == NULL)
         return bnTargetLimit.GetCompact(); // first block
+
     const CBlockIndex* pindexPrevPrev = GetLastBlockIndex(pindexPrev->pprev, fProofOfStake);
     if (pindexPrevPrev->pprev == NULL)
         return bnTargetLimit.GetCompact(); // second block
@@ -1094,6 +1117,60 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
 
     if (bnNew <= 0 || bnNew > bnTargetLimit)
         bnNew = bnTargetLimit;
+
+    return bnNew.GetCompact();
+}
+
+// From Netcoin: Digishield inspired difficulty algorithm
+//  Digibyte code was simplified and reduced by assuming nInterval==1
+//  added fProofOfStake to selectively locate last two blocks of the requested
+//  type for the time comparison.
+unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool fProofOfStake)
+{
+    CBigNum bnTargetLimit = fProofOfStake ? bnProofOfStakeLimit : bnProofOfWorkLimit;
+
+    // find the previous 2 blocks of the requested type (either POS or POW)
+    const CBlockIndex* pindexPrev = GetLastBlockIndex(pindexLast, fProofOfStake);
+
+    // Genesis block,  or first POS block not yet mined
+    if (pindexPrev == NULL)
+        return bnTargetLimit.GetCompact();
+
+    // is there another block of the correct type prior to pindexPrev?
+    const CBlockIndex* pindexPrevPrev = GetLastBlockIndex(pindexPrev->pprev, fProofOfStake);
+    if (pindexPrevPrev == NULL)
+        pindexPrevPrev = pindexPrev;
+    
+    // netcoin POW and POS blocks each separately retarget to 2 minutes,
+    // giving 1 minute overall average block target time.
+    int64_t retargetTimespan = nTargetSpacing * 2;
+    int64_t lowerLimit = retargetTimespan * (100 - nMaxAdjustUp) / 100;
+    int64_t upperLimit = retargetTimespan * (100 + nMaxAdjustDown) / 100;
+
+    int64_t nActualTimespan = pindexPrev->GetBlockTime() - pindexPrevPrev->GetBlockTime();
+
+    // amplitude filter - weight the adjustment
+    nActualTimespan = retargetTimespan + nAdjustAmplitude * (nActualTimespan - retargetTimespan) / 100;
+
+    // Clamp the value between [75%, 150%] of retargetTimespan
+    nActualTimespan = max(nActualTimespan, lowerLimit);
+    nActualTimespan = min(nActualTimespan, upperLimit);
+
+    CBigNum bnNew;
+    bnNew.SetCompact(pindexLast->nBits);
+    bnNew *= nActualTimespan;
+    bnNew /= retargetTimespan;
+
+    if (bnNew <= 0 || bnNew > bnTargetLimit)
+        bnNew = bnTargetLimit;
+
+    // debug print
+    if (1 || (fDebug && GetBoolArg("-printdigishield"))) {
+        printf("GetNextWorkRequired RETARGET\n");
+        printf("nTargetTimespan = %" PRId64 " nActualTimespan = %" PRId64 "\n", retargetTimespan, nActualTimespan);
+        printf("Before: %08x %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
+        printf("After: %08x %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
+    };
 
     return bnNew.GetCompact();
 }
