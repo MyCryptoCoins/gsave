@@ -99,7 +99,9 @@ xCXXFLAGS=-O2 -std=c++11 $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-qual
 
 # LDFLAGS can be specified on the make command line, so we use xLDFLAGS that only
 # adds some defaults in front. Unfortunately, LDFLAGS=... $(LDFLAGS) does not work.
-xLDFLAGS=$(LDHARDENING) $(LDFLAGS)
+xLDFLAGS= \
+ -Wl,-B$(LMODE2) \
+    $(LDHARDENING) $(LDFLAGS)
 
 OBJS= \
     obj/alert.o \
