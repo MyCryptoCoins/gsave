@@ -2459,7 +2459,7 @@ bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
                 // append a signature to our block
                 return key.Sign(GetHash(), vchBlockSig);
             } else {
-		printf("nTime: %" PRId64 ", time limit: %" PRId64 ", past drift: %" PRId64 "\n", txCoinStake.nTime, pindexBest->GetPastTimeLimit()+1, PastDrift(pIndexBest->GetBlockTime()));
+		printf("nTime: %" PRId64 ", time limit: %" PRId64 ", past drift: %" PRId64 "\n", txCoinStake.nTime, pindexBest->GetPastTimeLimit()+1, PastDrift(pindexBest->GetBlockTime()));
             }
         } else {
 	    printf("CreateCoinStake failed\n");
