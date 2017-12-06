@@ -2418,13 +2418,17 @@ bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
     //    something except proof-of-stake block template
-    if (!vtx[0].vout[0].IsEmpty())
+    if (!vtx[0].vout[0].IsEmpty()) {
+	printf("Fail isempty check\n");
         return false;
+    }
 
     // if we are trying to sign
     //    a complete proof-of-stake block
-    if (IsProofOfStake())
+    if (IsProofOfStake()) {
+	printf("IsProofOfStake true\n");
         return true;
+    }
 
     static int64_t nLastCoinStakeSearchTime = GetAdjustedTime(); // startup timestamp
 
@@ -2454,12 +2458,18 @@ bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 
                 // append a signature to our block
                 return key.Sign(GetHash(), vchBlockSig);
+            } else {
+		printf("nTime: %" PRId64 ", time limit: %" PRId64 ", past drift: %" PRId64 "\n", txCoinStake.nTime, pindexBest->GetPastTimeLimit()+1, PastDrift(pIndexBest->GetBlockTime()));
             }
-        }
+        } else {
+	    printf("CreateCoinStake failed\n");
+	}
         nLastCoinStakeSearchInterval = nSearchTime - nLastCoinStakeSearchTime;
         nLastCoinStakeSearchTime = nSearchTime;
     }
 
+
+    printf("search time: %" PRId64 ", lastStakeSearch: %" PRId64 "\n", nSearchTime, nLastCoinStakeSearchTime);
     return false;
 }
 
