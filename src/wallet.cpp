@@ -1721,7 +1721,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     }
 
     if (nCredit == 0 || nCredit > nBalance - nReserveBalance) {
-	printf("nCredit: %" PRId64 ", nBalance: %" PRId64 ", nReserveBalance: %" PRId64 "\m", nCredit, nBalance, nReserveBalance);
+	printf("nCredit: %" PRId64 ", nBalance: %" PRId64 ", nReserveBalance: %" PRId64 "\n", nCredit, nBalance, nReserveBalance);
         return false;
 
     BOOST_FOREACH(PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setCoins)
