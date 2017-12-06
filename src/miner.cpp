@@ -566,8 +566,10 @@ void StakeMiner(CWallet *pwallet)
         //
         int64_t nFees;
         unique_ptr<CBlock> pblock(CreateNewBlock(pwallet, true, &nFees));
-        if (!pblock.get())
+        if (!pblock.get()) {
+	    printf("CreateNewBlock failed\n");
             return;
+	}
 
         // Trying to sign a block
         if (pblock->SignBlock(*pwallet, nFees))
@@ -577,7 +579,9 @@ void StakeMiner(CWallet *pwallet)
             SetThreadPriority(THREAD_PRIORITY_LOWEST);
             MilliSleep(500);
         }
-        else
+        else {
+	    printf("SignBlock failed\n")
             MilliSleep(nMinerSleep);
+	}
     }
 }
