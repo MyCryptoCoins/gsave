@@ -1690,7 +1690,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
                             printf("CreateCoinStake : failed to get key for kernel type=%d\n", whichType);
                         break;  // unable to find corresponding public key
                     }
-
+                }
                 if (key.GetPubKey() != vchPubKey)
                 {
 //                    if (fDebug && GetBoolArg("-printcoinstake"))
