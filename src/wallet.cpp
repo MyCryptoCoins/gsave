@@ -1595,7 +1595,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     int64_t nBalance = GetBalance();
 
     if (nBalance <= nReserveBalance) {
-	print("Balance: %" PRId64 ", reserve balance: %" PRId64 "\n",
+	printf("Balance: %" PRId64 ", reserve balance: %" PRId64 "\n",
 	      nBalance, nReserveBalance);
         return false;
     }
@@ -1607,12 +1607,12 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
 
     // Select coins with suitable depth
     if (!SelectCoinsSimple(nBalance - nReserveBalance, txNew.nTime, nCoinbaseMaturity + 10, setCoins, nValueIn)) {
-	print("SelectCoinsSimple failed\n");
+	printf("SelectCoinsSimple failed\n");
         return false;
     }
 
     if (setCoins.empty()) {
-	print("setCoins empty\n");
+	printf("setCoins empty\n");
         return false;
     }
 
