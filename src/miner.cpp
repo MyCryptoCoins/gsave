@@ -580,7 +580,7 @@ void StakeMiner(CWallet *pwallet)
             MilliSleep(500);
         }
         else {
-	    printf("SignBlock failed\n")
+	    printf("SignBlock failed\n");
             MilliSleep(nMinerSleep);
 	}
     }
