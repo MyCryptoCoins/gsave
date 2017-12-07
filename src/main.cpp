@@ -1084,7 +1084,7 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
         return bnTargetLimit.GetCompact(); // genesis block
 
     int64_t nHeight = pindexPrev->nHeight;
-    if (nHeight < nStartTargetV2 || fProofOfStake) {
+    if (nHeight < nStartTargetV2) {
 	return GetNextTargetRequiredV1(pindexLast, fProofOfStake);
     } else {
 	return GetNextTargetRequiredV2(pindexLast, fProofOfStake);
@@ -1159,12 +1159,15 @@ unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool fProofO
     nActualTimespan = min(nActualTimespan, upperLimit);
 
     CBigNum bnNew;
-    bnNew.SetCompact(pindexLast->nBits);
+    bnNew.SetCompact(pindexPrev->nBits);
     bnNew *= nActualTimespan;
     bnNew /= retargetTimespan;
 
-    if (bnNew <= 0 || bnNew > bnTargetLimit)
+    if (bnNew <= 0 || bnNew > bnTargetLimit) {
+	printf("bnNew: %08X > bnTargetLimit: %08X, resetting\n",
+	       bnNew.GetCompact(), bnTargetLimit.GetCompact());
         bnNew = bnTargetLimit;
+    }
 
     return bnNew.GetCompact();
 }
@@ -2402,7 +2405,8 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
         mapOrphanBlocksByPrev.erase(hashPrev);
     }
 
-    printf("ProcessBlock: ACCEPTED\n");
+    printf("ProcessBlock: ACCEPTED: %s\n",
+           pblock->IsProofOfStake()? "proof-of-stake" : "proof-of-work");
 
     // ppcoin: if responsible for sync-checkpoint send it
     if (pfrom && !CSyncCheckpoint::strMasterPrivKey.empty())
