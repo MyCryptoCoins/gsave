@@ -293,7 +293,7 @@ bool CheckStakeKernelHash(unsigned int nBits, const CBlock& blockFrom, unsigned 
     int64_t nStakeModifierTime = 0;
 
     if (!GetKernelStakeModifier(hashBlockFrom, nStakeModifier, nStakeModifierHeight, nStakeModifierTime, fPrintProofOfStake)) {
-	printf("GetKernelStateModifier failed\n");
+	printf("GetKernelStakeModifier failed\n");
         return false;
     }
     ss << nStakeModifier;
