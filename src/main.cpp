@@ -1084,7 +1084,7 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
         return bnTargetLimit.GetCompact(); // genesis block
 
     int64_t nHeight = pindexPrev->nHeight;
-    if (nHeight < nStartTargetV2) {
+    if (nHeight < nStartTargetV2 || fProofOfStake) {
 	return GetNextTargetRequiredV1(pindexLast, fProofOfStake);
     } else {
 	return GetNextTargetRequiredV2(pindexLast, fProofOfStake);
