@@ -169,6 +169,7 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int64_t* pFees)
         ParseMoney(mapArgs["-mintxfee"], nMinTxFee);
 
     pblock->nBits = GetNextTargetRequired(pindexPrev, fProofOfStake);
+    printf("nBits: %08x (%s)\n", pblock->nBits, fProofOfStake ? "POS" : "POW");
 
     // Collect memory pool transactions into the block
     int64_t nFees = 0;
