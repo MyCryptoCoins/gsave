@@ -1713,7 +1713,9 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
                     printf("CreateCoinStake : added kernel type=%d\n", whichType);
                 fKernelFound = true;
                 break;
-            }
+            } else {
+		printf("CheckStakeKernelHash failed\n");
+	    }
         }
 
         if (fKernelFound || fShutdown)
