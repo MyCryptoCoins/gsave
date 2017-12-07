@@ -284,6 +284,7 @@ bool CheckStakeKernelHash(unsigned int nBits, const CBlock& blockFrom, unsigned 
     printf("Prev Time: %" PRId64 ", tx time: %" PRId64 "\n", (int64_t)txPrev.nTime, (int64_t)nTimeTx);
     CBigNum bnCoinDayWeight = CBigNum(nValueIn) * GetWeight((int64_t)txPrev.nTime, (int64_t)nTimeTx) / COIN / (24 * 60 * 60);
     targetProofOfStake = (bnCoinDayWeight * bnTargetPerCoinDay).getuint256();
+    printf("TargetProofOfStake: %s\n", targetProofOfState.ToString().c_str());
 
     // Calculate hash
     CDataStream ss(SER_GETHASH, 0);
