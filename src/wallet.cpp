@@ -1690,9 +1690,9 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
                             printf("CreateCoinStake : failed to get key for kernel type=%d\n", whichType);
                         break;  // unable to find corresponding public key
                     }
-                }
-                if (key.GetPubKey() != vchPubKey)
-                {
+                
+                    if (key.GetPubKey() != vchPubKey)
+                    {
 //                    if (fDebug && GetBoolArg("-printcoinstake"))
                         printf("CreateCoinStake : invalid key for kernel type=%d\n", whichType);
                         break; // keys mismatch
@@ -1723,6 +1723,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     if (nCredit == 0 || nCredit > nBalance - nReserveBalance) {
 	printf("nCredit: %" PRId64 ", nBalance: %" PRId64 ", nReserveBalance: %" PRId64 "\n", nCredit, nBalance, nReserveBalance);
         return false;
+    }
 
     BOOST_FOREACH(PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setCoins)
     {
