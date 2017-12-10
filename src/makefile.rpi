@@ -4,15 +4,15 @@
 
 all: GSaved
 
-BOOST_LIB_PATH := /opt/x-tools/pi-boost/lib
-BOOST_INCLUDE_PATH := /opt/x-tools/pi-boost/include
-OPENSSL_LIB_PATH := /opt/x-tools/pi-openssl/lib
-OPENSSL_INCLUDE_PATH := /opt/x-tools/pi-openssl/include
-BDB_LIB_PATH := /opt/x-tools/pi-db/lib
-BDB_INCLUDE_PATH := /opt/x-tools/pi-db/include
+BOOST_LIB_PATH := /opt/x-tools/rpi/lib
+BOOST_INCLUDE_PATH := /opt/x-tools/rpi/include
+OPENSSL_LIB_PATH := /opt/x-tools/rpi/lib
+OPENSSL_INCLUDE_PATH := /opt/x-tools/rpi/include
+BDB_LIB_PATH := /opt/x-tools/rpi/lib
+BDB_INCLUDE_PATH := /opt/x-tools/rpi/include
 CXX_LIB_PATH := /opt/x-tools/pi-crosstool-ng/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/lib
 CXX_INCLUDE_PATH := /opt/x-tools/pi-crosstool-ng/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include
-ZLIB_LIB_PATH := /opt/x-tools/pi-zlib/lib
+ZLIB_LIB_PATH := /opt/x-tools/rpi/lib
 
 CROSS := arm-unknown-linux-gnueabi
 
@@ -109,7 +109,7 @@ endif
 
 # CXXFLAGS can be specified on the make command line, so we use xCXXFLAGS that only
 # adds some defaults in front. Unfortunately, CXXFLAGS=... $(CXXFLAGS) does not work.
-xCXXFLAGS=-O2 $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter \
+xCXXFLAGS=-O2 -std=c++11 $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter \
     $(DEBUGFLAGS) $(DEFS) $(HARDENING) $(CXXFLAGS)
 
 # LDFLAGS can be specified on the make command line, so we use xLDFLAGS that only
