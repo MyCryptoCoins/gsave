@@ -17,9 +17,11 @@ ZLIB_LIB_PATH := /opt/x-tools/rpi/lib
 CROSS := arm-unknown-linux-gnueabi
 
 CXX := ${CROSS}-g++
+CC := ${CROSS}-gcc
+export CXX CC
 
-
-USE_UPNP:=-
+USE_UPNP:=0
+USE_IPV6:=1
 
 LINK:=$(CXX)
 ARCH:=$(system lscpu | head -n 1 | awk '{print $2}')
