@@ -15,15 +15,19 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
 }
 
+CROSS = x86_64-apple-darwin12-
+QMAKE_CC = ${CROSS}gcc
+QMAKE_CXX = ${CROSS}g++
+QMAKE_LINK = ${CROSS}g++
+QMAKE_LINK_SHLIB = ${CROSS}g++
+QMAKE_AR = ${CROSS}ar
+QMAKE_OBJCOPY = ${CROSS}objcopy
+QMAKE_NM = ${CROSS}nm
+QMAKE_STRIP = ${CROSS}strip
+
 OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build
-
-# for boost 1.37, add -mt to the boost libraries
-# use: qmake BOOST_LIB_SUFFIX=-mt
-# for boost thread win32 with _win32 sufix
-# use: BOOST_THREAD_LIB_SUFFIX=_win32-...
-# or when linking against a specific BerkelyDB version: BDB_LIB_SUFFIX=-4.8
 
 # Dependency library locations can be customized with:
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
@@ -32,9 +36,9 @@ UI_DIR = build
 # use: qmake "RELEASE=1"
 contains(RELEASE, 1) {
     # Mac: compile for maximum compatibility (10.5, 32-bit)
-    QMAKE_CXXFLAGS += -mmacosx-version-min=10.6 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk
-    QMAKE_CFLAGS += -mmacosx-version-min=10.6 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk
-    QMAKE_OBJECTIVE_CFLAGS += -mmacosx-version-min=10.6 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk
+    QMAKE_CXXFLAGS += -mmacosx-version-min=10.6 -arch i386 -isysroot /opt/osxcross/SDK/MacOSX10.8.sdk
+    QMAKE_CFLAGS += -mmacosx-version-min=10.6 -arch i386 -isysroot /opt/osxcross/SDK/MacOSX10.8.sdk
+    QMAKE_OBJECTIVE_CFLAGS += -mmacosx-version-min=10.6 -arch i386 -isysroot /opt/osxcross/SDK/MacOSX10.8.sdk
 }
 
 # for extra security against potential buffer overflows: enable GCCs Stack Smashing Protection
@@ -361,7 +365,6 @@ OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 DEFINES += MAC_OSX MSG_NOSIGNAL=0
 ICON = src/qt/res/icons/bitcoin.icns
-TARGET = "GSave-Qt"
 QMAKE_CFLAGS_THREAD += -pthread
 QMAKE_LFLAGS_THREAD += -pthread
 QMAKE_CXXFLAGS_THREAD += -pthread
