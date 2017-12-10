@@ -33,6 +33,16 @@ UI_DIR = build
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
 
+MACPORTS = /opt/osxcross/macports/pkgs/opt/local
+BOOST_INCLUDE_PATH = ${MACPORTS}/include
+BOOST_LIB_PATH = ${MACPORTS}/lib
+BDB_INCLUDE_PATH = ${MACPORTS}/db48/include
+BDB_LIB_PATH = ${MACPORTS}/db48/lib
+OPENSSL_INCLUDE_PATH = ${MACPORTS}/include
+OPENSSL_LIB_PATH = ${MACPORTS}/lib
+MINIUPNPC_INCLUDE_PATH = ${MACPORTS}/include
+MINIUPNPC_LIB_PATH = ${MACPORTS}/lib
+
 # use: qmake "RELEASE=1"
 contains(RELEASE, 1) {
     # Mac: compile for maximum compatibility (10.5, 32-bit)
