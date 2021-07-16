@@ -16,7 +16,8 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 }
 
 CROSS = x86_64-apple-darwin17-
-CMAKE_CLANG = ${CROSS}clang
+QMAKE_CLANG = ${CROSS}clang
+QMAKE_CLANGXX = ${CROSS}clang++
 QMAKE_CC = ${CROSS}gcc
 QMAKE_CXX = ${CROSS}g++
 QMAKE_LINK = ${CROSS}g++
