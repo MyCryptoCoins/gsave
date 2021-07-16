@@ -15,7 +15,8 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
 }
 
-CROSS = x86_64-apple-darwin12-
+CROSS = x86_64-apple-darwin17-
+CMAKE_CLANG = ${CROSS}clang
 QMAKE_CC = ${CROSS}gcc
 QMAKE_CXX = ${CROSS}g++
 QMAKE_LINK = ${CROSS}g++
