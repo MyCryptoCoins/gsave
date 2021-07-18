@@ -20,7 +20,10 @@ ZLIB_INCLUDE_PATH := ${PREFIX}/include
 
 CXX := ${CROSS}-g++
 CC := ${CROSS}-gcc
-export CXX CC
+AR := ${CROSS}-ar
+RANLIB := ${CROSS}-ranlib
+LD := ${CROSS}-ld
+export CXX CC AR RANLIB LD
 
 USE_UPNP:=0
 USE_IPV6:=1
